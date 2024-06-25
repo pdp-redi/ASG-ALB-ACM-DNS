@@ -42,7 +42,7 @@ resource "aws_security_group" "asg_security_group" {
   }
 
   ingress {
-    description     = "HTTPS from Internet"
+    description     = "HTTPS from ALB"
     from_port       = 443
     to_port         = 443
     protocol        = "tcp"
