@@ -1,1 +1,1 @@
-# ECR-EKS-RDS
+# EC2 Auto Scaling using terraform
